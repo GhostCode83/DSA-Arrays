@@ -29,8 +29,17 @@ console.log('hello')
 
 
 function URLify(string) {
-  return string
+  let newString = string.replace(' ', '%20')
+  return newString
 }
 
 console.log(URLify('tauhida parveen'))
 console.log(URLify('www.thinkful.com /tauh ida parv een'))
+
+function filter(array) {
+
+}
+
+console.log(filter(1, 2, 4, 5, 6, 7, 8, 9))
+console.log(filter(5, 6, 7, 8, 9))
+console.log(filter(1, 2, 4, 5, 6))
